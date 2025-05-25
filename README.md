@@ -5,15 +5,21 @@ Hi, I'm **Chamarthi Sravani** — Software Engineer and Data Analyst with strong
 
 ---
 
-## 📊 GitHub Stats
-
+<!-- 📊 GitHub Stats -->
+<h2>📊 GitHub Stats</h2>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sravanichamarthi&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_GITHUB_USERNAME&theme=radical" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=sravanichamarthi&theme=radical&hide_border=true" alt="GitHub Streak" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sravanichamarthi&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
+
+<!-- Profile views counter -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sravanichamarthi&label=Profile%20views&color=0e75b6&style=flat" alt="sravanichamarthi" />
+</p>
+
 
 ---
 
