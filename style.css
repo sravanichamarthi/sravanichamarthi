@@ -1,5 +1,4 @@
-/* Reset & base */
-
+/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -20,58 +19,69 @@ body {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
-/* Header & Navbar */
+/* Header top: profile image, name, qualification */
 
-header {
+.top-header {
+  text-align: center;
+  padding: 30px 15px 15px;
   background-color: #004080;
   color: #fff;
-  padding: 15px 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.nav-container {
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.name-qualification h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.name-qualification p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #cfd9ea;
+}
+
+/* Navbar styling */
+
+nav {
+  background-color: #003366;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  list-style: none;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 18px;
+  padding: 8px 0; /* smaller height */
   flex-wrap: wrap;
 }
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: 700;
-  user-select: none;
-}
-
-.tagline {
-  font-size: 1rem;
-  font-weight: 400;
-  margin-left: 15px;
-  flex: 1;
-  color: #d3d9e0;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li a {
-  color: #d3d9e0;
+.navbar li a {
+  color: #cfd9ea;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
-  padding: 6px 12px;
+  padding: 6px 14px;
   border-radius: 4px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-nav ul li a:hover,
-nav ul li a:focus {
-  background-color: #003366;
+.navbar li a:hover,
+.navbar li a:focus,
+.navbar li a.active {
+  background-color: #002244;
   color: #fff;
   outline: none;
 }
@@ -130,6 +140,7 @@ h2 {
   display: flex;
   gap: 15px;
   align-items: center;
+  justify-content: center;
 }
 
 .resume-download a {
@@ -140,6 +151,7 @@ h2 {
   font-weight: 600;
   color: #004080;
   text-decoration: none;
+  justify-content: center;
 }
 
 .resume-download a:hover,
@@ -162,43 +174,45 @@ footer {
 /* Responsive */
 
 @media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-
-  .tagline {
-    margin-left: 0;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-  }
-
-  nav ul li a {
-    width: 100%;
-  }
-
   .skills-list {
     columns: 1;
+  }
+
+  .navbar {
+    gap: 12px;
+    padding: 10px 5px;
+  }
+
+  .navbar li a {
+    font-size: 0.9rem;
+    padding: 6px 10px;
   }
 }
 
 @media (max-width: 480px) {
-  header {
-    padding: 12px 0;
+  .profile-img {
+    width: 90px;
+    height: 90px;
   }
 
-  .logo {
-    font-size: 1.5rem;
+  .name-qualification h1 {
+    font-size: 1.6rem;
   }
 
-  nav ul li a {
-    font-size: 0.9rem;
-    padding: 6px 8px;
+  .name-qualification p {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .navbar li a {
+    padding: 8px 12px;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
   }
 
   main section {
