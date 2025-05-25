@@ -51,11 +51,9 @@ Designed and implemented a system to manage customer accounts, transactions, and
 ---
 
 ## 🏆 Certifications & Achievements
-
-- 🎓 Completed SQL Internship via Internshala  
-- 📜 Java and SQL projects with hands-on experience  
-- ⭐ Consistently improving problem-solving and programming skills through projects and contests
-
+ 
+- SQL
+- Python
 ---
 
 ## 📬 Connect With Me
